@@ -60,7 +60,7 @@ const SingIn = () => {
       {isLoading && (
         <View style={styles.loadingContainer}>
           <ActivityIndicator size="large" color="#0000ff" />
-          <Text style={styles.loadingText}>Yükleniyor...</Text>
+          <Text style={styles.loadingText}>Sending...</Text>
         </View>
       )}
 

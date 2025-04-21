@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "appUretimCoffee_01",
-    "slug": "appUretimCoffee_01",
+    "name": "CoffeeShop",
+    "slug": "coffee-shop",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/coffeeShopIcon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
@@ -13,7 +13,8 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.caglarsenol.coffeeshop"
     },
     "android": {
       "adaptiveIcon": {
@@ -26,6 +27,11 @@
     },
     "plugins": [
       "expo-secure-store"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "5e2ff3bf-c87a-4622-8215-d7f45466f8a3"
+      }
+    }
   }
 }
