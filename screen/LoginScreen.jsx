@@ -23,7 +23,7 @@ const LoginScreen = () => {
   const [eMail, setEpost] = useState("");
   const [pass, setPass] = useState("");
 
-  
+  // Gğncelleme kontorl 14.24
 
  
 
